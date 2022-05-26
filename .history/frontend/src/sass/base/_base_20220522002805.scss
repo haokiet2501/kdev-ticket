@@ -1,0 +1,33 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #f62682 -4.45%, #6f5cf1 104.12%);
+    border-radius: 8px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb

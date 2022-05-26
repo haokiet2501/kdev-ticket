@@ -1,0 +1,51 @@
+@import '../config/variables';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1),
+}
+
+.logo {
+    svg text {
+        background-image: linear-gradient(90.06deg, #f62682 -4.45%, #6f5cf1 104.12%);
+        stroke: #6f5cf1;
+        font-weight: 700;
+        stroke-width: 5;
+        animation: textAnimation 5s infinite alternate;
+    }
+
+    @keyframes textAnimation{
+        0% {
+            stroke-dasharray: 0 50%;
+            stroke-dashoffset: -20%;
+        }
+        100% {
+            stroke-dasharray: 0 50%;
+            stroke-dashoffset: -20%;
+        }
+    }
+} 
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li {
+    padding: 10px;
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 1rem;
+    
+    a {
+        color: $text-color;
+    }
+    a:hover {
+        @include color-header;
+        transition: .3s ease-out;
+    }
+}

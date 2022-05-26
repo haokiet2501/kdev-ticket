@@ -1,0 +1,149 @@
+.ticket__page {
+    position: relative;
+    text-align: left;
+
+    header {
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        color: #4A686A;
+        margin-bottom: 10px;
+    }
+    
+    .ticket-inline {
+        border-bottom: 1px solid #BECEDA;
+        margin-bottom: 10px;
+    }
+
+    .ticket__id {
+        color: #4A686A;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .ticket-desc {
+        border: 1px solid #BECEDA;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+
+    .ticket-desc p {
+        color: #333;
+        font-size: 14px;
+    }
+
+}
+
+.form-group-note {
+    margin-bottom: 10px;
+
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #09A4DB;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: inherit;
+    }
+}
+
+.button-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-status-ticket {
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    width: 25%;
+    transition: .3s ease-out;
+}
+
+
+.btn-note-cmt svg{
+    margin-right: 8px;
+}
+
+.btn-note-cmt {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #0d1321;
+    color: #fff;
+    transition: .3s ease-out;
+}
+
+.btn-note-cmt:hover {
+    transform: scale(.98);
+}
+
+.btn-status-ticket:hover {
+    transform: scale(.98);
+}
+
+.btn-danger {
+    background-color: #D62828;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn-close {
+    background: none;
+    border: none;
+    color: #000;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-close:hover {
+    color: red;
+    transform: scale(0.98);
+}
+
+@media screen and (max-width: 475px) {
+    .ticket__page, .ticket__id {
+        font-size: 1rem;
+    }
+
+    .btn-status-ticket {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ticket__page, .ticket__id {
+        font-size: 1.2rem;
+    }
+
+    .btn-status-ticket {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .ticket__page, .ticket__id {
+        font-size: 1.2rem;
+    }
+
+    .btn-status-ticket {
+        width: 50%;
+    }
+}
+
+
+

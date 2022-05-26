@@ -1,0 +1,8 @@
+.page {
+    &__notfound {
+        width: 50%;
+        
+        object-fit: cover;
+        background-size: cover;
+    }
+}

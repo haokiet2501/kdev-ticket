@@ -1,0 +1,30 @@
+.form-ticket {
+    width: 40%;
+    margin: 0 auto;
+
+    &__group {
+        margin-bottom: 10px;
+
+        input, textarea{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #e6e6e6;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-family: inherit;
+        }
+
+        label {
+
+            text-align: left;
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 400;
+            margin: 0 0 5px 3px;
+        }
+    }
+
+    select {
+        
+    }
+}

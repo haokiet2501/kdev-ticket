@@ -1,0 +1,12 @@
+.page {
+    &__notfound {
+        position: relative;
+        width: 50%;
+        left: -rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,7 @@
+@mixin display() {
+    background: blue;
+}
+
+body {
+    @include display();
+}

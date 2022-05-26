@@ -1,0 +1,7 @@
+@mixin display() {
+    background-color: linear-gradient(left, #fff, #111);
+}
+
+body {
+    @include display();
+}

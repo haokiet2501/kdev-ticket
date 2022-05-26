@@ -1,0 +1,59 @@
+@import '../config/variables';
+
+.header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 24px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    &__customer {
+        @include color-header;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+} 
+
+.header ul {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li {
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 1rem;
+    
+    a {
+        color: $text-color;
+    }
+    a:hover {
+        @include color-header;
+        transition: .3s ease-out;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .header ul li a {
+        font-size: 0.75rem;
+    }
+    .logo__customer {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header ul li a {
+        font-size: 0.75rem;
+    }
+    .logo__customer {
+        font-size: 1rem;
+    }
+}

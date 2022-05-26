@@ -1,0 +1,8 @@
+@import '../config/variables';
+
+.tickets {
+    margin-top: 7rem;
+    &__title {
+        @include color-title;
+    }
+}

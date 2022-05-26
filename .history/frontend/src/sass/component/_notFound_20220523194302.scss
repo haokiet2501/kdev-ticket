@@ -1,0 +1,11 @@
+.page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    &__notfound {
+        position: relative;
+        width: 100%;
+        top: 3rem;
+        object-fit: cover;
+        background-size: cover;
+    }
+}

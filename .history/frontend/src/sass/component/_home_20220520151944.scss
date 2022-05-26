@@ -1,0 +1,45 @@
+@import '../config/variables/';
+
+.home {
+    &__title {
+        @include title;
+        @include color-title;
+    }
+
+    &__text {
+        @include text-title;
+    }
+}
+
+.home__ticket {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #0d1321;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    
+}
+
+.btn-reverse {
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+}
+
+.btn-block {
+    width: 50%;
+    margin-bottom: 20px;
+}

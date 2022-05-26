@@ -1,0 +1,16 @@
+@import '../config/variables/';
+
+.home {
+    &__title {
+        @include title;
+        @include color-title;
+    }
+
+    &__text {
+        @include text-title;
+    }
+}
+
+.btn {
+    
+}

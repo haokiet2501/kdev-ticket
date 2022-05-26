@@ -1,0 +1,30 @@
+.ticket__page {
+    position: relative;
+    text-align: left;
+    
+    header {
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        color: #4A686A;
+        margin-bottom: 10px;
+    }
+    
+    .ticket-inline {
+        border-bottom: 1px solid #0d1321;
+        margin-bottom: 10px;
+    }
+
+    __id {
+        color: #4A686A;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    
+}
+
+

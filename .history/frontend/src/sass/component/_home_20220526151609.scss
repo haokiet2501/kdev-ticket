@@ -1,0 +1,55 @@
+@import '../config/variables/';
+
+.home-container {
+    margin-top: 2rem;
+}
+
+.home {
+    &__title {
+        @include title;
+        @include color-title;
+    }
+
+    &__text {
+        @include text-title;
+    }
+}
+
+.home__ticket {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #0d1321;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+.btn-reverse {
+    color: #0d1321;
+    background: #fff;
+    border: 1px solid #0d1321;
+    transition: .3s ease-out;
+}
+
+.btn-block {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 412px) {
+    
+}

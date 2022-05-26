@@ -1,0 +1,17 @@
+.btn-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 8rem;
+    border: 1px solid #0d1321;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 4rem;
+    border-radius: 5px;
+    background: #0d1321;
+}
+
+.btn-back svg {
+    margin-right: 8px;
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+@mixin color-header {
+    background-image: linear-gradient(90.06deg, #f62682 -4.45%, #6f5cf1 104.12%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@mixin color-titile {
+    background-image: linear-gradient(45deg, #49BCF6 -4.45%, #9E6598 104.12%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+$text-color: #181E20;
+$text-title: #BECEDA;

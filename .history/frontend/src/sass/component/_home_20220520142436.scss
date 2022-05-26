@@ -1,0 +1,23 @@
+@import '../config/variables/';
+
+.home {
+    &__title {
+        @include title;
+        @include color-title;
+    }
+
+    &__text {
+        @include text-title;
+    }
+}
+
+.btn {
+    width: ;
+    padding: 10px 20px;
+    font-size: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #0d1321;
+    border-radius: 6px;
+    border: none;
+}

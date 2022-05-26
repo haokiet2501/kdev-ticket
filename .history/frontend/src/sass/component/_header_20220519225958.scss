@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    color: #949283;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+} 
+
+.header::before {
+    content: "";
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1.0);
+}

@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    padding: 24px;
+    text-align: center; 
+}
+
+@media screen and (max-width: 412px) {
+    .container {
+        dis
+        padding: 15px;
+    }
+}

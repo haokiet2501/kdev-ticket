@@ -1,0 +1,16 @@
+@import '../config/variables';
+
+.product {
+    &__banner {
+        object-fit: cover;
+        width: 30%;
+        background-size: cover;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-weight: 700;
+        font
+        @include color-title;
+    }
+}

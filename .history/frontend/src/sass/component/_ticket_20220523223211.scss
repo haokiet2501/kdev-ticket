@@ -1,0 +1,45 @@
+.ticket__page {
+    position: relative;
+    text-align: left;
+    
+    header {
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        color: #4A686A;
+        margin-bottom: 10px;
+    }
+    
+    .ticket-inline {
+        border-bottom: 1px solid #BECEDA;
+        margin-bottom: 10px;
+    }
+
+    .ticket__id {
+        color: #4A686A;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .ticket-desc {
+        border: 1px solid #BECEDA;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+
+    .ticket-desc p {
+        color: #333;
+        font-size: 14px;
+    }
+
+    .btn-status-ticket {
+
+    }
+     
+    .btn-danger
+}
+
+

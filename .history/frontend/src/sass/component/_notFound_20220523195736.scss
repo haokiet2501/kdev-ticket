@@ -1,0 +1,36 @@
+.page {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    top: -50%;
+    left: -20%;
+    transform: translate(50%, 50%);
+    &__notfound {
+        width: 100%;
+        top: 3rem;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    &__heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    &__title {
+        color: rgb(250, 151, 104);
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        margin-bottom: 3rem;
+        font-weight: 300;
+    }
+
+    &__btn-notfound {
+
+    }
+}

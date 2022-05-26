@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+@mixin color-header {
+    background-image: linear-gradient(90.06deg, #f62682 -4.45%, #6f5cf1 104.12%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@mixin color-title {
+    background-image: linear-gradient(180deg, #0d1321, #748cab);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@mixin title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+@mixin text-title {
+    font-size: 1.2rem;
+    color: #041C44;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+@mixin status-item {
+    position: absolute;
+        content: "";
+        left: -12px;
+        width: 8px;
+        height: 8px;
+        border: 2px solid;
+        border-radius: 50%;
+}
+$text-color: #181E20;

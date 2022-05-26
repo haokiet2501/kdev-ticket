@@ -1,0 +1,9 @@
+.page {
+    &__notfound {
+        position: relative;
+        width: 50%;
+        top: 3rem;
+        object-fit: cover;
+        background-size: cover;
+    }
+}

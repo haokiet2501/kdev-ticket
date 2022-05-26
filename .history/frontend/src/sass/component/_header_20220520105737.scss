@@ -1,0 +1,39 @@
+@import '../config/variables';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5rem;
+    margin-bottom: 60px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1),
+}
+
+.logo {
+    &__customer {
+        @include color-header;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+} 
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li {
+    padding: 10px;
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 1rem;
+    
+    a {
+        color: $text-color;
+    }
+    a:hover {
+        @in
+    }
+}

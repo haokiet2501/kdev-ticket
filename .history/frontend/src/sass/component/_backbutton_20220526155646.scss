@@ -1,0 +1,36 @@
+.btn-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    width: 7rem;
+    outline: none;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #0d1321;
+    cursor: pointer;
+    color: #0d1321;
+    transition: .3s ease-out;
+}
+
+.btn-back svg {
+    margin-right: 8px;
+}
+
+.btn-back:hover {
+    transform: scale(0.98);
+}
+
+@media screen and (max-width: 412px) {
+    .btn-back {
+        display: none;
+    }
+}
+@media screen and (max-width: 412px) {
+    .btn-back {
+        display: none;
+    }
+}

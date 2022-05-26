@@ -1,0 +1,17 @@
+.form-ticket {
+    width: 70%;
+    margin: 0 auto;
+
+    &__group {
+        margin-bottom: 10px;
+
+        input, textarea, select {
+            width: 50%;
+            padding: 10px;
+            border: 1px solid #e6e6e6;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-family: inherit;
+        }
+    }
+}

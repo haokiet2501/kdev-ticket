@@ -1,0 +1,7 @@
+* {
+    @include 
+}
+
+@mixin blue() {
+    background-color: blue;
+}

@@ -1,0 +1,38 @@
+.page {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    top: -15%;
+    left: -15%;
+    transform: translate(15%, 15%);
+    &__notfound {
+        width: 100%;
+        top: 3rem;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    &__heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    &__title {
+        color: rgb(250, 151, 104);
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        margin-bottom: 3rem;
+        font-weight: 300;
+    }
+
+    &__btn-notfound {
+        padding: 8px 16px;
+        border: none;
+        background: linear-gradient(to left, #FF7C52, #FFA780);
+    }
+}

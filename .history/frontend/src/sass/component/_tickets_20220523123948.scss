@@ -1,0 +1,19 @@
+@import '../config/variables';
+
+.tickets {
+    margin-top: 1rem;
+    &__title {
+        @include color-title;
+        margin-bottom: 1rem;
+    }
+
+    &__heading{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        margin-bottom: 20px;
+        color: #4A686A;
+        border-bottom: 1px solid #C1D1D1;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,8 @@
+.product {
+    &__banner {
+        object-fit: cover;
+        width: 50%;
+        // height: 100;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,31 @@
+@import '../config/variables/';
+
+.home {
+    &__title {
+        @include title;
+        @include color-title;
+    }
+
+    &__text {
+        @include text-title;
+    }
+}
+
+.btn {
+    padding: 10px 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #0d1321;
+    border-radius: 6px;
+    border: none;
+}
+
+.btn-reverse {
+    color: #000;
+    background: #fff;
+}
+
+.btn-block {
+    width: 60%;
+    margin-bottom: 20px;
+}

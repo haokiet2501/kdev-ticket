@@ -1,0 +1,31 @@
+.ticket-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.status {
+    color: transparent;
+    font-size: 12px;
+    text-transform: capitalize;
+    top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    border-radius: 50%;
+
+    &-new {
+        color: #159947;
+    }
+
+    &-new::before {
+        content: "";
+        right: ;
+        width: 8px;
+        height: 8px;
+        border: 2px solid;
+        border-radius: 50%;
+    }
+}

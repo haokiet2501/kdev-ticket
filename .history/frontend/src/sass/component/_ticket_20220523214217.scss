@@ -1,0 +1,10 @@
+.ticket {
+    margin-top: 1rem;
+    text-align: left;
+
+    &__heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

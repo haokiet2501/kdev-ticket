@@ -1,0 +1,71 @@
+.ticket-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid #C1D1D1;
+    padding: 15px;
+
+    &__date, &__product {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+    }
+
+    &__date {
+        position: relative;
+        left: 42px;
+    }
+
+    &__product {
+        position: relative;
+        left: -10px;
+    }
+}
+
+.status {
+    position: relative;
+    color: transparent;
+    font-size: 12px;
+    left: -15px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    border-radius: 50%;
+
+    &-new {
+        color: #02AE33;
+    }
+
+    &-new::before {
+        position: absolute;
+        content: "";
+        left: -12px;
+        width: 8px;
+        height: 8px;
+        border: 2px solid;
+        border-radius: 50%;
+    }
+}
+
+.btn-ticket {
+    color: #0d1321;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #0d1321;
+    width: 30%;
+    padding: 6px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+        transform: scale(.98);
+    }
+}
